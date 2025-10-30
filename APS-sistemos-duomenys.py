@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-from sklearn import datasets
 
 print("All libraries imported successfully!")
 
@@ -238,7 +237,5 @@ q2SectorPercentagePlot =plot_sector_distribution(sortedSectorsQ2, 'Į APS pateku
 q3SectorPercentagePlot =plot_sector_distribution(sortedSectorsQ3, 'Į APS patekusių įmonių veiklos sferos III ketvirtyje')
 q4SectorPercentagePlot =plot_sector_distribution(sortedSectorsQ4, 'Į APS patekusių įmonių veiklos sferos IV ketvirtyje')
 allQuartersSectorPercentagePlot =plot_sector_distribution(sortedSectors2024, 'Į APS patekusių įmonių veiklos sferos')
-
-plt.savefig('plot.svg', format='svg', bbox_inches='tight', dpi=300)
 
 #------------------------------------------------------------------------------------------------------------------------------------
